@@ -25,9 +25,9 @@ Else {
 if (Get-Process procdump64) {
 netstat -ano > C:\scripts\PD.txt
 $To      = "email@domain.com" 
-$From    = "PprocdumpCrunning@domain.com" 
-$Subject = "procdump RUNNING" 
-$Body    = "procdump RUNNING!!!!" 
+$From    = "Pprocdump64Crunning@domain.com" 
+$Subject = "procdump64 RUNNING" 
+$Body    = "procdump64 RUNNING!!!!" 
 # Create mail message 
 $Message = New-Object System.Net.Mail.MailMessage $From, $To, $Subject, $Body 
 $AttchmentText = get-content C:\scripts\PD.txt
@@ -47,4 +47,5 @@ taskkill /IM procdump64.exe /F
 }
 Else {
 Break
+}
 }
