@@ -34,7 +34,7 @@ Actions: Start A Program
 
 --Add arguments: cmd /c mkdir c:\scripts
 
-Copy PS.ps1 to scripts folder
+Copy PD.ps1 to scripts folder
 
 Name: Copy1D
 
@@ -50,7 +50,7 @@ Actions: Start A Program
 
 --Add arguments: cmd /c copy "\\PATH\PD.ps1" "C:\scripts"
 
-Copy PS.xml to scripts folder
+Copy PD.xml to scripts folder
 
 Name: Copy2D
 
